@@ -1,0 +1,68 @@
+body {
+    background-image: url('https://w.wallhaven.cc/full/3l/wallhaven-3lwkmv.jpg');
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    margin: 0px;
+}
+
+.box {
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 10px 10px;
+    position: relative;
+    width: 95%;
+    height: 50%;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+    left: 2.2%;
+}
+
+#btt {
+    background-color: rgb(0, 0, 0, 0.8);
+    border-radius: 20px 20px;
+    border: 1px solid #ff6f61;
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    color: white;
+    font-weight: normal;
+    font-family: cursive;
+    font-size: large;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    transition: transform 0.1s;
+    left: 37%;
+    animation-name: bord;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bord {
+    0% {
+        border-color: #FF6F61; /* Coral */
+    }
+    20% {
+        border-color: #6B5B93; /* Lavanda */
+    }
+    40% {
+        border-color: #88B04B; /* Verde oliva */
+    }
+    60% {
+        border-color: #F7CAC9; /* Rosa pálido */
+    }
+    80% {
+        border-color: #92A8D1; /* Azul suave */
+    }
+    100% {
+        border-color: #FFB400; /* Amarillo dorado */
+    }
+}
+
+#btt:active {
+    transform: scale(1.2);
+}
